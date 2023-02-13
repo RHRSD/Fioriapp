@@ -1,0 +1,124 @@
+<mvc:View xmlns:core="sap.ui.core"
+    controllerName="project2.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:forms="sap.ui.layout.form"
+    xmlns:l="sap.ui.layout" 
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                      <forms:SimpleForm id="SimpleForm1"
+                            editable="true"
+                            title="Address" >
+
+                       
+                       
+                        <Label text="Name"></Label>
+                        <Text text="Chaitanya" ></Text>
+                       
+                        <Label text="DOJ"></Label>
+                        <Text text="19-03-1999"></Text>
+
+                        <Label text="Email"></Label>
+                        <Input width="250px"></Input>
+
+                        <Label text="Country"></Label>
+                        <ComboBox placeholder="Select Your Country"  maxWidth="50%" >
+                            <items>
+                            <core:Item text="India"></core:Item>
+                            <core:Item text="America"></core:Item>
+                            <core:Item text="Srilanka"></core:Item>
+                            <core:Item text="China"></core:Item>
+                            </items>
+                        </ComboBox>
+                        <Label text="Gender"></Label>
+                        <RadioButtonGroup columns="3">
+                        
+                        <RadioButton text="Male" ></RadioButton>
+                        <RadioButton text="Female" ></RadioButton>
+                        </RadioButtonGroup>
+                        <Label text="Technologies Known"></Label> 
+                        <CheckBox text="SAP UI5" width="auto"></CheckBox>
+                        <CheckBox text="JAVA"></CheckBox>
+                        <CheckBox text="PYTHON"></CheckBox>
+                        <CheckBox text="C++"></CheckBox>
+                          <Label text="Ref From Google" ></Label>  
+                        <Link text="Click Here" href="https://www.google.com" target="_blank"></Link>
+                        <Label ></Label>
+                        <Button text="SIGN" width="50px" press="onClick" ></Button>
+                      </forms:SimpleForm>
+                       </content>
+                         
+		<l:BlockLayout>
+			<l:BlockLayoutRow  >
+				<l:BlockLayoutCell 
+						title="Heading 1"  titleLevel="H1"  backgroundColorSet="ColorSet10" backgroundColorShade="ShadeD" >
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoi;."/>
+				</l:BlockLayoutCell>
+				<l:BlockLayoutCell
+                        width="3"
+						title="Heading 2" titleLevel="H4" titleAlignment="Center" backgroundColorSet="ColorSet1" backgroundColorShade="ShadeC">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoi;."/>
+				</l:BlockLayoutCell> 
+                <l:BlockLayoutCell
+						title="Heading 3" backgroundColorSet="ColorSet11" backgroundColorShade="ShadeA">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoi;."/>
+				</l:BlockLayoutCell>
+                <l:BlockLayoutCell
+						title="Heading 4" backgroundColorSet="ColorSet4" backgroundColorShade="ShadeB">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoi;."/>
+				</l:BlockLayoutCell>
+                <l:BlockLayoutCell
+						title="Heading 5" backgroundColorSet="ColorSet6" backgroundColorShade="ShadeF">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoi;."/>
+				</l:BlockLayoutCell>
+			</l:BlockLayoutRow>
+            <l:BlockLayoutRow scrollable="true" rowColorSet="ColorSet4" >
+				<l:BlockLayoutCell
+						title="Heading 6" busy="true" busyIndicatorDelay="100" busyIndicatorSize="Large">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoi;."/>
+				</l:BlockLayoutCell>
+				<l:BlockLayoutCell
+						title="Heading 7">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoi;."/>
+				</l:BlockLayoutCell>
+                <l:BlockLayoutCell
+						title="Heading 8">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoi;."/>
+				</l:BlockLayoutCell>
+                <l:BlockLayoutCell
+						title="Heading 9">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoi;."/>
+				</l:BlockLayoutCell>
+                <l:BlockLayoutCell
+                
+						title="Heading 10">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoi;."/>
+				</l:BlockLayoutCell>
+			</l:BlockLayoutRow>
+            <l:BlockLayoutRow rowColorSet="ColorSet2">
+				<l:BlockLayoutCell
+                width="3"
+						title="Heading 11">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoizjukfkuhsdfkh ilsdafhikas sdiuorliuth ijkxdfgihsdkui sdiurohyguisdrghio jukfhhisdrtoiy;."/>
+				</l:BlockLayoutCell>
+               <l:BlockLayoutCell
+						title="Heading 12">
+					<Text text="jvhsdjkh.gdfi gjlkrfdiljgdzrfil grjoilsdfgoudsrpou driltu9osdru9 ikadrlgtiuh;oadrio;yrt hijkldrfsighesruoizjukfkuhsdfkh ilsdafhikas sdiuorliuth ijkxdfgihsdkui sdiurohyguisdrghio jukfhhisdrtoiy;."/>
+				</l:BlockLayoutCell>
+                
+			</l:BlockLayoutRow>
+		</l:BlockLayout>
+        
+	      
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+                
+            
+</mvc:View>
